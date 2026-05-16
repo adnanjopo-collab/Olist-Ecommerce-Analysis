@@ -265,18 +265,19 @@ Olist-Ecommerce/
 ├── sql/
 │   └── health_check.sql             # Data quality validation queries
 │
+├── powerbi/
+│   └─ Olist_Ecommerce_Dashboard.zip # Password-protected Power BI project file
+│
 ├── assets/
 │   ├── sales_overview.png
-│   ├── insights_panel.png
-│   ├── product_analysis.png
-│   ├── customer_analysis.png
-│   └── operational_performance.png
-│
+...
 └── README.md
 ```
 
-> **Note:** The Power BI (.pbix) file is not included in this repository as it contains database credentials. To reproduce, connect Power BI to your own MySQL instance using the schema defined in this README.
-
+> ### Project File Security & Intellectual Property Note
+> The original Power BI (`.pbix`) file has been uploaded inside the `powerbi/` directory as a password-protected ZIP file. This measure ensures data credentials remain secure and protects the strategic design from unauthorized copying.
+> 
+> **For Hiring Managers & Recruiters:** If you wish to inspect the complete backend star schema data model, advanced DAX measures, and dashboard configurations, please send a direct message on **[LinkedIn](https://www.linkedin.com/in/adnan-mustafa-jopo/)**. I will gladly share the extraction password with you instantly.
 ---
 
 ## How to Reproduce
@@ -286,10 +287,9 @@ Olist-Ecommerce/
 3. Open `python/Olist_Ecommerce.ipynb` in Google Colab and mount your Drive
 4. Update the MySQL connection string with your own Aiven credentials
 5. Run all cells to clean data and upload to MySQL
-6. Open Power BI Desktop and connect to your MySQL database
-7. Recreate the Calendar_Lookup table using the DAX formula in Phase 3
-8. Build relationships as defined in the Data Model section
-9. Refresh the data and explore the dashboard
+6. Request the archive password from the author via LinkedIn.
+7. Extract the `Olist_Ecommerce_Dashboard.zip` file inside the `powerbi/` folder.
+8. Open the `.pbix` file in Power BI Desktop to inspect the complete interactive model and DAX calculations.
 
 ---
 
