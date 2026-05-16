@@ -270,7 +270,6 @@ Olist-Ecommerce/
 │
 ├── assets/
 │   ├── sales_overview.png
-...
 └── README.md
 ```
 
