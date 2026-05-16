@@ -269,7 +269,11 @@ Olist-Ecommerce/
 │   └─ Olist_Ecommerce_Dashboard.zip # Password-protected Power BI project file
 │
 ├── assets/
-│   ├── sales_overview.png
+│   ├── sales_overview.png           # Power BI - Sales Overview
+│   ├── insights_panel.png           # Power BI - Insights Panel
+│   ├── product_analysis.png         # Power BI - Product Analysis
+│   ├── customer_analysis.png        # Power BI - Customer Analysis
+│   └── operational_performance.png  # Power BI - Operational Performance
 └── README.md
 ```
 
